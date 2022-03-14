@@ -18,6 +18,17 @@ h1, h2 {
     color: #333;
   }
 
+header {
+    height: 75px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    position: fixed;
+    background-color: white;
+}
+
 #logo {
     float: left;
     font-size: 280%;
@@ -29,7 +40,7 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#logo, #menu {
     line-height: 75px;
 }
 
@@ -57,7 +68,13 @@ h1, h2 {
     overflow: hidden;
     position: relative;
     background-color: aqua;
-    padding: 10px;
+    margin-top: 75px;
+}
+
+.hero_text {
+    width: 100%;
+    text-align: center;
+    margin-top: 300px;
 }
 
 .kayaking {
