@@ -4,41 +4,47 @@
     box-sizing: border-box;
 }
 
-
-/* heading and logo */
-
 h1, h2 {
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     color: #333;
   }
 
-#menu_container {
-    background-color: rgb(188, 188, 202);
+/*Styling of heading and logo */
+
+header {
     display: flex;
-    justify-content: flex-end;
-    align-items: stretch;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: azure;
+    position: fixed;
+    z-index: 9999;
+    padding: 20px 2.5%;
 }
 
-.logo {
-    background-color: blueviolet;
-    color: aliceblue;
-    font-size: 35px;
-    padding: 20px;
+header h2 a {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    color: #333;
     text-decoration: none;
-    align-self: flex-start;
-}
-
-.nav {
-    background-color: blueviolet;
-    color: aliceblue;
-    font-size: 20px;
-    padding: 20px;
-    text-decoration: none;
-    justify-content: flex-end;
     }
 
-.nav a:hover {
+.menu_container li {
+    display: inline-flex;
+    height: 100%;
+}
+
+.menu_container li a {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #333;
+    text-decoration: none;
+    padding: 1em;
+}
+
+nav a:hover {
     background: #333;
     color: white;
 }
@@ -51,7 +57,6 @@ h1, h2 {
     overflow: hidden;
     position: relative;
     background-color: aqua;
-    margin-top: 75px;
 }
 
 .hero_text {
