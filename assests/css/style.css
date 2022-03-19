@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: azure;
+    background-color: #fffcf5;
     position: fixed;
     z-index: 9999;
     padding: 20px 2.5%;
@@ -25,6 +25,7 @@ header {
 
 header h2 a {
     font-family: Oswald, sans-serif;
+    font-size: 30px;
     letter-spacing: 4px;
     color: #333;
     text-decoration: none;
@@ -32,12 +33,11 @@ header h2 a {
 
 .menu_container li {
     display: inline-flex;
-    height: 100%;
-}
+    }
 
 .menu_container li a {
     font-family: Oswald, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 4px;
     color: #333;
     text-decoration: none;
@@ -52,31 +52,57 @@ nav a:hover {
 /* hero image and hero text */
 
 .hero_image {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    background-color: aqua;
+    display: flex;
+    height: 100vh;
+    background-image: url(../Safe_Enjoyable_Sea_Kayaking.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero_text {
     width: 100%;
     text-align: center;
     margin-top: 300px;
+    font-size: 150%;
 }
 
-.kayaking {
-    background-color: aliceblue;
+/* Styling Kayaking Section */
+
+.kayaking_gear_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 150%;
 }
 
-.kayaking_tech {
+.kayaking_gear_list {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    font-size: 150%;
+    }
+
+#kayaking_tech {
     background-color: aqua;
+    display: flex;
+    height: 100vh;
 }
 
-.about {
+#about {
+    display: flex;
+    height: 100vh;
     background-color: aliceblue;
 }
 
 footer {
+    display: flex;
+    height: 30px;
     background-color: aqua;
 }
