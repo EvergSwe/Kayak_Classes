@@ -122,9 +122,10 @@ nav a:hover {
     text-align: center;
 }
 
-.clothes_desc ul {
+.clothes_desc ul li {
     list-style: none;
-    text-align: left;
+    text-align: inherit;
+    font-size: 120%;
 }
 
 #clothes_img {
@@ -145,7 +146,8 @@ nav a:hover {
 
 .paddle_desc ul {
     list-style: none;
-    text-align: left;
+    text-align: inherit;
+    font-size: 120%;
 }
 
 #paddle_img {
@@ -165,7 +167,8 @@ nav a:hover {
 
 .kayak_desc ul {
     list-style: none;
-    text-align: left;
+    text-align: inherit;
+    font-size: 120%;
 }
 
 #kayak_img {
