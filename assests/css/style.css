@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #fffcf5;
+    background-color: #063970;
     position: fixed;
     z-index: 9999;
     padding: 20px 2.5%;
@@ -27,7 +27,7 @@ header h2 a {
     font-family: Oswald, sans-serif;
     font-size: 30px;
     letter-spacing: 4px;
-    color: #333;
+    color: #eeeee4;
     text-decoration: none;
     }
 
@@ -39,14 +39,15 @@ header h2 a {
     font-family: Oswald, sans-serif;
     font-weight: 400;
     letter-spacing: 4px;
-    color: #333;
+    color: #eeeee4;
     text-decoration: none;
     padding: 1em;
+    transition-duration: 0.4s
 }
 
 nav a:hover {
-    background: #333;
-    color: white;
+    background: #eeeee4;
+    color: #063970;
 }
 
 /* hero image and hero text */
@@ -67,27 +68,53 @@ nav a:hover {
     font-size: 150%;
 }
 
+.hero_text h1, p {
+    padding: 10px;
+}
+
+.connect {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 1em;
+    background-color: #063970;
+    color: #eeeee4;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.connect:hover {
+    background-color: #eeeee4;
+    color: #063970;
+}
+
 /* Styling Kayaking Section */
 
 .kayaking_gear_header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 15px;
-    font-size: 150%;
-}
-
-.kayaking_gear_list {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    list-style: none;
+    flex-direction: column;
+    height: auto;
+}
+
+.kayaking_gear_header {
     font-size: 150%;
+    padding: 20px;
+}
+
+.kayaking_desc {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 90vh;
+    margin-top: 20px;
     }
+
+
+
+
+/* Styling Kayaking technique section */
 
 #kayaking_tech {
     background-color: aqua;
@@ -95,11 +122,15 @@ nav a:hover {
     height: 100vh;
 }
 
+/* Styling About us and contact section */
+
 #about {
     display: flex;
     height: 100vh;
     background-color: aliceblue;
 }
+
+/* Styling footer section */
 
 footer {
     display: flex;
