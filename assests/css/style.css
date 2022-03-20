@@ -57,7 +57,7 @@ nav a:hover {
 .hero_image {
     display: flex;
     height: 100vh;
-    background-image: url(../Safe_Enjoyable_Sea_Kayaking.jpg);
+    background-image: url(../img/Safe_Enjoyable_Sea_Kayaking.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,13 +107,14 @@ nav a:hover {
     padding: 20px;
 }
 
-.kayaking_desc {
+.kayaking_desc_container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    height: 90vh;
+    height: 100vh;
     margin-top: 20px;
     padding: 20px;
-    }
+}
 
 .clothes_desc {
     max-width: 33%;
@@ -121,20 +122,59 @@ nav a:hover {
     text-align: center;
 }
 
+.clothes_desc ul {
+    list-style: none;
+    text-align: left;
+}
 
+#clothes_img {
+    
+    width: 100%;
+    height: 30vh;
+    padding: 20px;
+    border-radius: 30px;
+    background: url(../img/kayak_safety.jpg) no-repeat center center;    
+}
 
 .paddle_desc {
+    
     max-width: 33%;
     padding: 20px;
     text-align: center;
+}
 
+.paddle_desc ul {
+    list-style: none;
+    text-align: left;
+}
+
+#paddle_img {
+    
+    width: 100%;
+    height: 30vh;
+    padding: 20px;
+    border-radius: 30px;
+    background: url(../img/paddles.jpg) no-repeat center center;    
 }
 
 .kayak_desc {
     max-width: 33%;
     padding: 20px;
     text-align: center;
+}
 
+.kayak_desc ul {
+    list-style: none;
+    text-align: left;
+}
+
+#kayak_img {
+    
+    width: 100%;
+    height: 30vh;
+    padding: 20px;
+    border-radius: 30px;
+    background: url(../img/kayaks.jpg) no-repeat center center;    
 }
 
 
