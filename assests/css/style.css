@@ -28,14 +28,18 @@ header {
 
 header h2 a {
     font-family: Oswald, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 4px;
     color: #eeeee4;
     text-decoration: none;
     }
 
+
 .menu_container li {
-    display: inline-flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0.5em;
+    text-align: center;
     }
 
 .menu_container li a {
@@ -44,7 +48,7 @@ header h2 a {
     letter-spacing: 4px;
     color: #eeeee4;
     text-decoration: none;
-    padding: 1em;
+    padding: 0.5em;
     transition-duration: 0.4s
 }
 
@@ -68,8 +72,7 @@ nav a:hover {
     width: 100%;
     text-align: center;
     margin-top: 300px;
-    font-size: 150%;
-}
+    }
 
 .hero_text h1, p, a {
     padding: 10px;
@@ -104,7 +107,6 @@ nav a:hover {
 }
 
 .kayaking_gear_header {
-    font-size: 150%;
     padding: 20px;
 }
 
@@ -126,7 +128,6 @@ nav a:hover {
 .clothes_desc ul li {
     list-style: none;
     text-align: inherit;
-    font-size: 120%;
 }
 
 #clothes_img {
@@ -148,7 +149,6 @@ nav a:hover {
 .paddle_desc ul {
     list-style: none;
     text-align: inherit;
-    font-size: 120%;
 }
 
 #paddle_img {
@@ -204,4 +204,49 @@ footer {
     display: flex;
     height: 30px;
     background-color: aqua;
+}
+
+/* Small Screen */
+
+@media screen and (max-widh: 425px) {
+    .menu_container li {
+        flex-direction: column;
+        list-style: none;
+        
+    }
+}
+
+
+/* Medium screens*/
+@media screen and (min-width: 768px) {
+    .menu_container li {
+        flex-direction: row;
+        display: inline-flex;
+    }
+}
+
+/* Large screens*/
+@media screen and (min-width: 1440px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero_text h1 {
+        font-size: 40px;
+    }
+
+    .hero_text p {
+        font-size: 20px;
+    }
+
+    header h2 a {
+        font-size: 40px;
+    }
+
+    .menu_container li a {
+        font-size: 25px;
+    }
+
+
 }
