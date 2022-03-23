@@ -76,7 +76,13 @@ nav a:hover {
 
 .hero_text h1, p, a {
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.hero_text p {
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .connect {
@@ -100,19 +106,28 @@ nav a:hover {
 
 .kayaking_gear_header {
     display: flex;
-    height: 100vh;
-}
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 20px;
 
-.kayaking_gear_header {
-    padding: 20px;
 }
 
 .kayaking_desc_container {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: auto;
+    height: 80vh;
     padding: 20px;
+}
+
+#kayak_img {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: url(../img/kayak_gear.jpg) no-repeat center center;
 }
 
 
@@ -180,7 +195,7 @@ footer {
     }
 
     .menu_container li a {
-        font-size: 25px;
+        font-size: 20px;
     }
 
 
