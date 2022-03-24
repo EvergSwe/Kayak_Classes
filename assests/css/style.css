@@ -189,6 +189,12 @@ nav a:hover {
     padding: 20px;
 }
 
+.connect_form {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+}
+
 .map {
     background-color: grey;
     width: 100%;

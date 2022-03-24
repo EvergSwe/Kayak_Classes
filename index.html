@@ -71,8 +71,62 @@
         <p>where to find us and how to connect</p>
     </div>
     <div class="about_container">
-        <div class="map"></div>
-        <div class="connect_form"></div>
+        <div class="map">
+
+        </div>
+        <div class="connect_form">
+            <h2>Connect with us</h2>
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <br>
+                <div>
+                    <label for="name-field" class="block-label">Name </label>
+			        <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                </div>
+                <br>
+                <div class="float-left">
+                    <label for="email-field" class="block-label">Email </label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="experiance" class="block-label">Experiance </label>
+                    <select id="experiance" name="experiance" required>
+                        <option value="no_exp">No Experiance</option>
+                        <option value="little_exp">Little Experiance</option>
+                        <option value="some_exp">Some Experiance</option>
+                        <option value="much_exp">Much Experiance</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="age" class="block-label">Age </label>
+                    <select id="age" name="age" required>
+                        <option value="12-14">12-14</option>
+                        <option value="15-19">15-19</option>
+                        <option value="20-29">20-29</option>
+                        <option value="30-39">30-39</option>
+                        <option value="40-49">40-49</option>
+                        <option value="50-59">50-59</option>
+                        <option value="60+">60+</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <textarea name="questions" rows="5" cols="50">Send any questions you may have and we will respond as soon as possible</textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" name="submit" value="Send" />
+                    <input type="reset" name="reset" value="Clear Form" />
+                </div>
+                
+            </form>
+        </div>
+
+
+
+
+
 </section>
 
 <footer>
