@@ -123,10 +123,15 @@ nav a:hover {
 }
 
 .kayaking_img {
-    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 50%;
-
+    background-image: url(../img/kayaking_gear.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .kayaking_text {
