@@ -136,7 +136,6 @@ nav a:hover {
     
 }
 
-
 /* Styling Kayaking technique section */
 
 .technique_header {
@@ -244,9 +243,32 @@ nav a:hover {
 
 footer {
     display: flex;
-    height: 30px;
-    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    color: #eeeee4;
+    background-color: #063970;
+    height: 75px;
 }
+
+.social_links {
+   list-style: none;
+    
+}
+
+.social_links li {
+    display: inline-flex;
+}
+
+.social_links i {
+    color: #eeeee4;
+    font-size: 160%;
+    padding: 10px 5px;
+}
+
+.social_links a {
+    margin: 0;
+}
+
 
 /* media queries for screen size responsiveness */
 
