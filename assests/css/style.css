@@ -19,7 +19,7 @@ header {
     align-items: center;
     width: 100%;
     background-color: #063970;
-    position: fixed;
+    position: absolute;
     z-index: 9999;
     padding: 5px 2.5%;
     border-bottom-left-radius: 30px;
@@ -56,6 +56,7 @@ nav a:hover {
     background: #eeeee4;
     color: #063970;
 }
+
 
 /* hero image and hero text */
 
@@ -204,7 +205,7 @@ nav a:hover {
 
 /* Styling About us and contact section */
 
-#about {
+.about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,27 +225,24 @@ nav a:hover {
 
 .about_map{
     overflow:hidden;
-    padding-bottom:56.25%;
     position:relative;
-    height:0;
+    height:400px;
+    margin: 20px 0;
 }
 
 .about_map iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+    
 }
 
 .form {
     flex: 1;
     background-color: #063970;
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
     border-radius: 5px;
     border: 1px solid #333;
     padding: 20px;
+    margin: 20px 0;
 }
 
 .form h3 {
@@ -353,13 +351,17 @@ footer {
         height: 600px;
     }
 
-    .form, .kayaking_text, .technique_text {
+    .kayaking_text, .technique_text {
        max-width: 1200px;
        font-size: 160%;
     }
 
     .kayaking_gear_header, .technique_header {
         font-size: 160%;
+    }
+
+    .form, .about_map {
+        max-width: 800px;
     }
 
 
