@@ -63,7 +63,7 @@ nav a:hover {
 .hero_image {
     display: flex;
     height: 100vh;
-    min-height: 500px;
+    min-height: 600px;
     background-image: url(../img/Safe_Enjoyable_Sea_Kayaking.webp);
     background-position: center;
     background-size: cover;
@@ -73,7 +73,7 @@ nav a:hover {
 .hero_text {
     width: 100%;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
     }
 
 .hero_text h1, p, a {
