@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, {
+h1, h2 {
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     color: #333;
@@ -350,16 +350,6 @@ footer {
 
 
 /* media queries for screen size responsiveness */
-
-/* Small Screen */
-
-@media screen and (max-widh: 425px) {
-    .menu_container li {
-        flex-direction: column;
-        list-style: none;
-        
-    }
-}
 
 
 /* Medium screens*/
