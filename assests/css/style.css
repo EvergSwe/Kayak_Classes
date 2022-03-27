@@ -161,6 +161,7 @@ nav a:hover {
     align-items: center;
     height: auto;
     margin-top: 20px;
+    width: 100%;
 }
 
 .technique_container {
@@ -202,7 +203,6 @@ nav a:hover {
 }
 
 
-
 /* Styling About us and contact section */
 
 .about {
@@ -222,27 +222,50 @@ nav a:hover {
     color: #333;
 }
 
-
-.about_map{
-    overflow:hidden;
-    position:relative;
-    height:400px;
-    margin: 20px 0;
+.contact {
+    margin-bottom: 20px;
 }
 
-.about_map iframe{
-    
+.contact h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact li {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
+
+.about_map {
+    overflow:hidden;
+    position:relative;
+    height:300px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.about_map iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .form {
     flex: 1;
-    background-color: #063970;
+    background-image: url(../img/dark_water.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     max-width: 600px;
     width: 100%;
     border-radius: 5px;
     border: 1px solid #333;
     padding: 20px;
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 .form h3 {
@@ -268,6 +291,29 @@ nav a:hover {
 .form li label {
     color: #eeeee4;
     padding-bottom: 5px;
+}
+
+.form_submit .form_reset {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 1em;
+    background-color: #eeeee4;
+    color: #063970;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #063970;
+    color: #eeeee4;
+}
+
+input[type="reset"]:hover {
+    background-color: #063970;
+    color: #eeeee4;
 }
 
 
@@ -347,22 +393,24 @@ footer {
         font-size: 20px;
     }
 
-    .technique_img, .kayaking_img {
+    .technique_img, .kayaking_img, .about_map {
         height: 600px;
     }
 
-    .kayaking_text, .technique_text {
+    .form, .kayaking_text, .technique_text, .contact {
        max-width: 1200px;
-       font-size: 160%;
+       font-size: 140%;
     }
 
-    .kayaking_gear_header, .technique_header {
-        font-size: 160%;
+     .kayaking_gear_header, .technique_header, .about_header {
+        font-size: 140%;
     }
 
-    .form, .about_map {
-        max-width: 800px;
+    .form-list input, textarea, select {
+        font-size: 20px;
     }
 
+
+    
 
 }
