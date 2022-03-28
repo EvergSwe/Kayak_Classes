@@ -15,7 +15,7 @@ h1, h2, h3 {
     color: #333;
   }
 
-p, label, input, li {
+p, label, input, li, a {
     font-family: 'Quattrocento Sans', sans-serif;
     letter-spacing: 1px;
     color: #333;
