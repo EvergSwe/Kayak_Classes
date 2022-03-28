@@ -2,7 +2,7 @@
 
 Welcome to Kayaking Freedom - we provide kayaking cources for you to be safe out on the water, challenge yourself in small steps to be able to get close to the nature. We will prepare your skills for enjoyable experiences and lifelasting memories. Kayaking Freedom target middle age women and men who seek peace and harmony in life and in the same time keep up their health while doing so. Secondary target group are kids to target group one. Kayaking freedom love to see the whole family attending a course. Age limit of 12 is applied as kayaking require responsibility, some level of physical strenght as well as the first experiance is lasting it need to be a good one.
 
-![My Image](../Kayak_Classes/assests/img/responsive_check_kayaking_classes.PNG)
+![Responsive Test](./assests/img/responsive_check_kayaking_classes.PNG)
 
 ## Design Decisions and Features
 One Page design approched where choosed as the scope is flat one-subject and informarmation rather straight forward. Color pattern intended is close to the subject water, cliffs, sand with blue/dark greay/light yellow-ish. Font...
@@ -22,13 +22,15 @@ Intend to provide the viewer an understanding of the learning process and...
 
 ### About Us Section
 - Contact Details
--  Map
--  Connect with us form
+- Map
+- Connect with us form
 
 ## Testing
 
 ###
 
-## Error detection
+## Error
 
 Different issues has been resolved with developer tools inspection in Google Chrome
+
+## Further Development
