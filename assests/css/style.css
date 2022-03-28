@@ -13,7 +13,7 @@ h1, h2, h3 {
 
 /*Styling of heading and logo */
 body {
-    background-color: #eeeee4;
+    background-color: #fef9f1;
 }
 
 header {
@@ -34,7 +34,7 @@ header h2 a {
     font-family: Oswald, sans-serif;
     font-size: 20px;
     letter-spacing: 4px;
-    color: #eeeee4;
+    color: #e18c34;
     text-decoration: none;
     }
 
@@ -50,14 +50,14 @@ header h2 a {
     font-family: Oswald, sans-serif;
     font-weight: 400;
     letter-spacing: 4px;
-    color: #eeeee4;
+    color: #e18c34;
     text-decoration: none;
     padding: 0.5em;
     transition-duration: 0.4s
 }
 
 nav a:hover {
-    background: #eeeee4;
+    background: #e18c34;
     color: #063970;
 }
 
@@ -97,14 +97,14 @@ nav a:hover {
     margin-top: 20px;
     padding: 1em;
     background-color: #063970;
-    color: #eeeee4;
+    color: #e18c34;
     border-radius: 8px;
     transition-duration: 0.4s;
     text-decoration: none;
 }
 
 .connect:hover {
-    background-color: #eeeee4;
+    background-color: #e18c34;
     color: #063970;
 }
 
@@ -275,7 +275,7 @@ nav a:hover {
 
 .form h3 {
     text-align: center;
-    color: #eeeee4;
+    color: #e18c34;
     padding-bottom: 20px;
 }
 
@@ -294,7 +294,7 @@ nav a:hover {
 }
 
 .form li label {
-    color: #eeeee4;
+    color: #e18c34;
     padding-bottom: 5px;
 }
 
@@ -303,7 +303,7 @@ nav a:hover {
     font-weight: 400;
     margin-top: 20px;
     padding: 1em;
-    background-color: #eeeee4;
+    background-color: #e18c34;
     color: #063970;
     border-radius: 8px;
     transition-duration: 0.4s;
@@ -313,12 +313,12 @@ nav a:hover {
 
 input[type="submit"]:hover {
     background-color: #063970;
-    color: #eeeee4;
+    color: #e18c34;
 }
 
 input[type="reset"]:hover {
     background-color: #063970;
-    color: #eeeee4;
+    color: #e18c34;
 }
 
 
@@ -328,7 +328,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #eeeee4;
     background-color: #063970;
     height: 75px;
 }
@@ -343,7 +342,7 @@ footer {
 }
 
 .social_links i {
-    color: #eeeee4;
+    color: #e18c34;
     font-size: 160%;
     padding: 10px 5px;
 }
