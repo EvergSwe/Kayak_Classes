@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +10,16 @@
 }
 
 h1, h2, h3 {
-    font-family: Oswald, sans-serif;
+    font-family: 'Cantora one', sans-serif;
     letter-spacing: 4px;
     color: #333;
   }
+
+p, label, input, li {
+    font-family: 'Quattrocento Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #333;
+}
 
 /*Styling of heading and logo */
 body {
@@ -31,7 +41,7 @@ header {
 }
 
 header h2 a {
-    font-family: Oswald, sans-serif;
+    font-family: 'Cantora one', sans-serif;
     font-size: 20px;
     letter-spacing: 4px;
     color: #e18c34;
@@ -77,12 +87,12 @@ nav a:hover {
 .hero_text {
     width: 100%;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 250px;
     }
 
 .hero_text h1, h2, a {
     padding: 5px;
-    margin: 5px;
+    margin-bottom: 20px;
     overflow: hidden;
 }
 
@@ -116,7 +126,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     height: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -165,7 +175,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     height: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -218,6 +228,7 @@ nav a:hover {
     width: 100%;
     height: auto;
     padding: 20px 0;
+    margin-top: 50px;
     
 }
 
@@ -227,9 +238,6 @@ nav a:hover {
     color: #333;
 }
 
-.contact {
-    margin-bottom: 20px;
-}
 
 .contact h3 {
     text-align: center;
@@ -249,6 +257,7 @@ nav a:hover {
     width: 100%;
     border-radius: 5px;
     border: 1px solid #333;
+    margin-top: 50px;
 }
 
 .about_map iframe {
@@ -270,7 +279,7 @@ nav a:hover {
     border-radius: 5px;
     border: 1px solid #333;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .form h3 {
@@ -330,6 +339,7 @@ footer {
     align-items: center;
     background-color: #063970;
     height: 75px;
+    margin-top: 50px;
 }
 
 .social_links {
@@ -371,7 +381,7 @@ footer {
         justify-content: space-between;
     }
 
-    .hero_text h1 {
+    .hero_text h1, h2 {
         font-size: 40px;
     }
 
