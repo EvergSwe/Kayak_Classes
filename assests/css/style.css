@@ -160,6 +160,7 @@ nav a:hover {
 
 .kayaking_text li {
     list-style: none;
+    margin-top: 10px;
 }
 
 .kayaking_list h3, p {
@@ -210,6 +211,7 @@ nav a:hover {
 
 .technique_text li {
     list-style: none;
+    margin-top: 10px;
 }
 
 .technique_list h3, p {
@@ -270,10 +272,7 @@ nav a:hover {
 
 .form {
     flex: 1;
-    background-image: url(../img/light_underwater.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #063970;
     max-width: 600px;
     width: 100%;
     border-radius: 5px;
@@ -320,14 +319,32 @@ nav a:hover {
 
 }
 
+input[type="submit"] {
+    background-color: #e18c34;
+    color: #063970;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+input[type="reset"] {
+    background-color: #e18c34;
+    color: #063970;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
 input[type="submit"]:hover {
     background-color: #063970;
     color: #e18c34;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 input[type="reset"]:hover {
-    background-color: #063970;
-    color: #e18c34;
+    background-color: #e18c34;
+    color: #063970;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 
@@ -412,6 +429,14 @@ footer {
 
      .kayaking_gear_header, .technique_header, .about_header {
         font-size: 140%;
+    }
+
+    .kayaking_list li {
+        margin-top: 30px;
+    }
+
+    .technique_list li {
+        margin-top: 30px;
     }
 
     .form-list input, textarea, select {
