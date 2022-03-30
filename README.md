@@ -50,7 +50,7 @@ Footer section including links to social media sites for Kayaking Freedom. Links
 
 ### Development planned for next increment
 
-- multi-page wire frame structure to re-evaluate if new design would add additional value to users. If no added valus proven go ahead with below changes
+- multi-page wire frame structure to re-evaluate if new design would add additional value to users. If no added values proven go ahead with below changes
 
 - to improve the usability the topbar is to be fixed on top of the screen and visibal when scrolling is activated, else hidden.
 
@@ -62,10 +62,25 @@ Footer section including links to social media sites for Kayaking Freedom. Links
 ### User Story
 
 ### Feature testing
+- [x] test case 1, Links in navigation bar shall take the user to beginning of relevant section without any issues
+- [x] test case 2, Links in navigation bar shall change color when hovering cursor over relevant object
+- [x] test case 3, 'Connect with us to join a course' button shall take the user to beginning of 'About us' section without any issues
+- [x] test case 4, 'Connect with us to join a course' shall change color when hovering cursor over the object
+- [x] test case 5, Google map shall have the point of interest in center of the map in all formats
+- [x] test case 6, Form required field shall have input
+- [x] test case 7, Form shall have valid input type
+- [x] test case 8, 
 
-### UI testing 
+### Browser interface testing (UI)
 
-### Performance testing
+### Automated testing
+
+Automated testing of html, css programming language has been done by using third party tools. Google Chorme extension devtools, Lighthouse, has been used for general improvements of webpage quality. It has audits for performance, accessibility, progressive web apps, SEO
+
+1. [HTML Validator by w3.org 'validator'](https://validator.w3.org/#validate_by_uri)
+
+
+2. [CSS Validator by w3.org 'jigsaw'](https://jigsaw.w3.org/css-validator/)
 
 ## Error
 

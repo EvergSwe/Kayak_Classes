@@ -71,11 +71,11 @@ nav a:hover {
     color: #063970;
 }
 
-
 /* hero image and hero text */
 
 .hero_image {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     min-height: 600px;
     background-image: url(../img/Safe_Enjoyable_Sea_Kayaking.webp);
@@ -117,6 +117,8 @@ nav a:hover {
     background-color: #e18c34;
     color: #063970;
 }
+
+
 
 /* Styling Kayaking Section */
 
@@ -276,9 +278,9 @@ nav a:hover {
     max-width: 600px;
     width: 100%;
     border-radius: 5px;
-    border: 1px solid #333;
     padding: 20px;
     margin-top: 50px;
+    transition-duration: 0.5s;
 }
 
 .form h3 {
@@ -290,6 +292,7 @@ nav a:hover {
 .form li {
     list-style: none;
     padding: 5px;
+    margin-bottom: 15px;
 }
 
 .form li input {
@@ -304,6 +307,7 @@ nav a:hover {
 .form li label {
     color: #e18c34;
     padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .form_submit .form_reset {
@@ -425,6 +429,7 @@ footer {
     .form, .kayaking_text, .technique_text, .contact {
        max-width: 1200px;
        font-size: 140%;
+       transition-duration: 0.5s;
     }
 
      .kayaking_gear_header, .technique_header, .about_header {
@@ -443,7 +448,9 @@ footer {
         font-size: 20px;
     }
 
-
+    input[type="reset"], input[type="submit"], input[type="text"], input[type="email"]  {
+        font-size: 20px;
+    }
     
 
 }
