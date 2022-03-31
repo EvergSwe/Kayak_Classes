@@ -32,6 +32,7 @@ About us Secion intend to find out where we are located, get in contact by call,
 
 - Contact Details
   - Centralized contact details
+  - Mailto functionality opening up your default email provider with mail address to Kayaking Freedom filled.
 
 - Map
   - Embeded google map iframe fully responsive
@@ -62,16 +63,26 @@ Footer section including links to social media sites for Kayaking Freedom. Links
 ### User Story
 
 ### Feature testing
-- [x] test case 1, Links in navigation bar shall take the user to beginning of relevant section without any issues
-- [x] test case 2, Links in navigation bar shall change color when hovering cursor over relevant object
-- [x] test case 3, 'Connect with us to join a course' button shall take the user to beginning of 'About us' section without any issues
-- [x] test case 4, 'Connect with us to join a course' shall change color when hovering cursor over the object
-- [x] test case 5, Google map shall have the point of interest in center of the map in all formats
-- [x] test case 6, Form required field shall have input
-- [x] test case 7, Form shall have valid input type
-- [x] test case 8, 
+- [X] test case 1, Links in navigation bar shall take the user to beginning of relevant section without any issues
+- [X] test case 2, Links in navigation bar shall change color when hovering cursor over relevant object
+- [X] test case 3, 'Connect with us to join a course' button shall take the user to beginning of 'About us' section without any issues
+- [X] test case 4, 'Connect with us to join a course' shall change color when hovering cursor over the object
+- [X] test case 5, Google map shall have the point of interest in center of the map in all formats
+- [X] test case 6
+- [X] test case 7, Form required field shall have input
+- [X] test case 8, Form input type validation
+- [X] test case 9, Form shall have submit butten pushing infromation to code institute database
+- [X] test case 10, form submit button shall change color when hovering cursor over
+- [X] test case 11, form reset button shall clear form input
+- [X] test case 12, form reset button shall change color when hovering cursor over
+- [X] test case 13, social link to Facebook shall open up separate browser tab when selecting
+- [X] test case 13, social link to Twitter shall open up separate browser tab when selecting
+- [X] test case 13, social link to Instagram shall open up separate browser tab when selecting
 
 ### Browser interface testing (UI)
+
+1. Usability in 
+
 
 ### Automated testing
 
@@ -82,11 +93,18 @@ Automated testing of html, css programming language has been done by using third
 
 2. [CSS Validator by w3.org 'jigsaw'](https://jigsaw.w3.org/css-validator/)
 
-## Error
+3. [Google Chrome Lighthouse Extension](https://developers.google.com/web/tools/lighthouse)
+
+Lighthouse test mobile:
+
+Lighthouse test desktop:
+
+Improvements indications from Lighthosue was identified in relation to performance. 
+
+Perofrmance: 
+Different issues has been resolved with developer tools inspection in Google Chrome
 
 ## Deployment
-
-Different issues has been resolved with developer tools inspection in Google Chrome
 
 ## Credits
 
