@@ -17,11 +17,12 @@ Welcome to Kayaking Freedom - we provide kayaking cources for you to be safe out
 ### Structure
 
 ### Skeleton
+Pen and paper were used to build up different versions of wireframes where multi-page vs. single page structure where evaluted. One Page design approched where choosed as the scope is flat one-subject and one dimensional information structure with intention to connect with Kayaking Freedom to know more about the courses.
 
 ### Surface
+ Natural color pattern chosed based on hero picture toggle color picker of subject water, cliffs and sand. Font style of headings choosed in the sama natural theme and remaining text for primarly for readability.
 
 ## Existing Features
-One Page design approched where choosed as the scope is flat one-subject and one dimensional information structure with intention to connect with Kayaking Freedom to know more about the courses. Natural color pattern chosed based on hero picture toggle color picker of subject water, cliffs and sand. Font style of headings choosed in the sama natural theme and remaining text for primarly for readability.
 
 ### The Header
 The header is fully responsive with maintained usability for different screen sizes. Small screens one column set-up with Logo on top followed by the Section links belwo, medium screens two rows with Logo on top and section links below and for wide screens one row with logo on the left and section links on the right. First intention was to keep a fixed top bar to easely navigate between different section, only visible at scrolling. However I did not mange to find solution without java code why this will be kept to next inctement for further development. MVP solution for top bar has an absolut positioning top of the page which has less usability as scrolling back to home is needed.
@@ -109,7 +110,7 @@ Above 15 test cases where performed in below browser to verify viewport and feat
 ### Test Conclution
 
 - all 15 test cases is accepted (1 after code correction)
-- webpage is fully responsive in all browsers extept IE however as IE is to be expired soon test is accepted
+- webpage is fully responsive in all browsers except IE, however as IE is to be expired soon test is accepted
 
 ### Automated testing
 
@@ -159,21 +160,18 @@ Automated testing of html, css programming language has been done by using third
 6. Page is now successfully published on Github Pages
 ![Github pages published](/assests/img/Github_pages_deployment.PNG)
 
-### Server deployment steps
-
-
-
-
 ## Credits
 
 ### Content
-Content and Idea was based on my own idea.
+Content and Idea was based on my own idea and intresst in this area.
 
 ### Media
 
 - [Hero image](https://www.seakayakermag.com/best-kayak-paddles/)
+- [Kayaking image]
+- [Technique image]
 - [Fontawesome](https://fontawesome.com/) icons is used
-- [GoogleFonts](https://fonts.google.com/) is used to 
+- [GoogleFonts](https://fonts.google.com/) has been explored and used
 
 ### Code
 
