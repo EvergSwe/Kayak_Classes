@@ -60,8 +60,6 @@ Footer section including links to social media sites for Kayaking Freedom. Links
 
 ## Testing
 
-### User Story
-
 ### Feature testing
 - [X] test case 1, Links in navigation bar shall take the user to beginning of relevant section without any issues
 - [X] test case 2, Links in navigation bar shall change color when hovering cursor over relevant object
@@ -74,15 +72,36 @@ Footer section including links to social media sites for Kayaking Freedom. Links
 - [X] test case 9, Form shall have submit butten pushing infromation to code institute database
 - [X] test case 10, form submit button shall change color when hovering cursor over
 - [X] test case 11, form reset button shall clear form input
-- [X] test case 12, form reset button shall change color when hovering cursor over
+- [ ] test case 12, form reset button shall change color when hovering cursor over.
+  - [X] test case 12.1, Colors where switched and after corrections successful test
 - [X] test case 13, social link to Facebook shall open up separate browser tab when selecting
-- [X] test case 13, social link to Twitter shall open up separate browser tab when selecting
-- [X] test case 13, social link to Instagram shall open up separate browser tab when selecting
+- [X] test case 14, social link to Twitter shall open up separate browser tab when selecting
+- [X] test case 15, social link to Instagram shall open up separate browser tab when selecting
 
 ### Browser interface testing (UI)
+Above 15 test cases where performed in below browser to verify viewport and feature functionality.
 
-1. Usability in 
+- Google Chrome (desktop device)
+  - full responsiveness confirmed in google devtools for all 15 test cases without any issues
 
+- Microsoft Edge (desktop device)
+  - full responsiveness confirmed in google devtools for all 15 test cases without any issues
+
+- Safari (mobile device)
+  - feature validation performed in mobile device as I had no access to desktop version.
+  - All 15 test cases passed the test
+
+- Internet Explorer
+  - Internet will soon be expired and replaced with Microsoft Edge
+  - Test performed with poor result and below diviations identified
+  - Rendering of webp images doesn't work
+  - Google responsive map is not supported
+  - Positioning of footer above form
+
+### Test Conclution
+
+- all 15 test cases is accepted (1 after code correction)
+- webpage is fully responsive in all browsers extept IE however as IE is to be expired soon test is accepted
 
 ### Automated testing
 
@@ -90,21 +109,40 @@ Automated testing of html, css programming language has been done by using third
 
 1. [HTML Validator by w3.org 'validator'](https://validator.w3.org/#validate_by_uri)
 
+- Result
+![HTML Validator](/assests/img/html_validation.PNG)
+
+  - As select require None value option, adding 'option value="">None</option' resolved the error
 
 2. [CSS Validator by w3.org 'jigsaw'](https://jigsaw.w3.org/css-validator/)
 
+- Result
+  - Passed without remarks
+  <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
 3. [Google Chrome Lighthouse Extension](https://developers.google.com/web/tools/lighthouse)
 
-Lighthouse test mobile:
+- Lighthouse test mobile:
 
-Lighthouse test desktop:
+![Lighthouse mobile test](/assests/img/lighthouse_check_kayaking_classes_mobile.PNG)
 
-Improvements indications from Lighthosue was identified in relation to performance. 
+- Lighthouse test desktop:
 
-Perofrmance: 
-Different issues has been resolved with developer tools inspection in Google Chrome
+![Lighthouse desktop test](/assests/img/lighthouse_check_kayaking_classes_desktop.PNG)
+
+- Improvements note:
+  - Perofrmance: Image format .jpg was indicated as outdated format with major impact to performance. Proposal to chose new generation of image format .webp. Converting and replacing the image files in repository and webpage increased performance from 66% to 93% for mobile devices.
 
 ## Deployment
+
+
+
 
 ## Credits
 
