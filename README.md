@@ -8,7 +8,19 @@ Welcome to Kayaking Freedom - we provide kayaking cources for you to be safe out
 
 [View website](https://evergswe.github.io/Kayak_Classes/)
 
-## Design Decisions and Existing Features
+## UX process
+
+### Strategy
+
+### Scope
+
+### Structure
+
+### Skeleton
+
+### Surface
+
+## Existing Features
 One Page design approched where choosed as the scope is flat one-subject and one dimensional information structure with intention to connect with Kayaking Freedom to know more about the courses. Natural color pattern chosed based on hero picture toggle color picker of subject water, cliffs and sand. Font style of headings choosed in the sama natural theme and remaining text for primarly for readability.
 
 ### The Header
@@ -44,19 +56,15 @@ About us Secion intend to find out where we are located, get in contact by call,
   - validation rules for email character @
   - when submited form data is inserted to database table at Code Institute
 
-
 ### Footer
 
 Footer section including links to social media sites for Kayaking Freedom. Links will open to new tab to allow easy navigation for the user.
 
 ### Development planned for next increment
 
-- multi-page wire frame structure to re-evaluate if new design would add additional value to users. If no added values proven go ahead with below changes
-
 - to improve the usability the topbar is to be fixed on top of the screen and visibal when scrolling is activated, else hidden.
 
 - form pushed to email when submited to replace the existing data base insert with a confiramtion message
-
 
 ## Testing
 
@@ -141,29 +149,37 @@ Automated testing of html, css programming language has been done by using third
 
 ## Deployment
 
+### Github deployment steps
+
+1. Login into https://github.com/
+2. Select Kayak_Classes -> https://github.com/EvergSwe/Kayak_Classes
+3. Select Settings
+4. Scroll down to Gibhub Pages and select the link to dedicated tab
+5. Go to source drop down and select branch main, root and Save
+6. Page is now successfully published on Github Pages
+![Github pages published](/assests/img/Github_pages_deployment.PNG)
+
+### Server deployment steps
+
 
 
 
 ## Credits
 
-fontawesome
-Google fonts
-Code institute - Coders Coffe house and Love Running project - 
+### Content
+Content and Idea was based on my own idea.
 
-https://blog.duda.co/responsive-google-maps-for-your-website
+### Media
 
-https://www.seakayakermag.com/best-kayak-paddles/ - hero image
+- [Hero image](https://www.seakayakermag.com/best-kayak-paddles/)
+- [Fontawesome](https://fontawesome.com/) icons is used
+- [GoogleFonts](https://fonts.google.com/) is used to 
 
-https://www.w3schools.com/
+### Code
 
-## Design Process
+- General: Code institute - Coders Coffe house and Love Running project - Training material and video tutorials
+- HTML/CSS: Implementation and utilisation of Flexbox was assisted by CSS-Tricks.
+- HTML/CSS: https://www.w3schools.com/
+- Iframe: https://blog.duda.co/responsive-google-maps-for-your-website
 
-### Strategy
 
-### Scope
-
-### Structure
-
-### Skeleton
-
-### Surface
