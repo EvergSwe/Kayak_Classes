@@ -12,13 +12,13 @@
 h1, h2, h3 {
     font-family: 'Cantora one', sans-serif;
     letter-spacing: 4px;
-    color: #333;
+    color: #333333;
   }
 
 p, label, input, li, a {
     font-family: 'Quattrocento Sans', sans-serif;
     letter-spacing: 1px;
-    color: #333;
+    color: #33333;
 }
 
 /*Styling of heading and logo */
